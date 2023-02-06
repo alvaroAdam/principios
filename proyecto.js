@@ -7,11 +7,11 @@ function crearVector(n,m){
 
     }
     
-    console.log(ar)
+    return ar
 }
 
-crearVector(6,8)
-<<<<<<< HEAD
+console.log(crearVector(6,8))
+
 
 
 
