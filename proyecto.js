@@ -11,6 +11,7 @@ function crearVector(n,m){
 }
 
 crearVector(6,8)
+<<<<<<< HEAD
 
 
 
@@ -30,6 +31,47 @@ console.log(res)
 productoNumeroVector(2,[1,2,3])
 
 
+
+
+function sumarVector(v1,v2,v3){
+
+let d;
+let c;
+let res=[];
+for (i=0;i<v1.length;i++){
+    c=v1.length
+   }
+
+   for (i=0;i<v2.length;i++){
+    d=v2.length
+   }
+
+if (c==d){
+    for(i=0;i<v1.length;i++){
+        res[i]=v1[i]+v2[i]
+    }
+}
+console.log(res)
+
+}
+sumarVector([1,2,3,4] ,[1,2,3,4],[1,2,3,4])
+
+
+
+function productoNumeroVector(n,v)
+{
+    let res=[];
+    for(i=0;i<v.length;i++){
+           res[i]=v[i] * n
+}
+console.log(res)
+
+}
+
+productoNumeroVector(2,[1,2,3])
+
+
+>>>>>>> rama2
 function restaVector(v1, v2)
 {
     let d;
